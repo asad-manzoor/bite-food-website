@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap');
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    color: #fff !important;
+    background-color: #20232A !important;
+    width: 100%;
+    overflow-x: hidden;
+}
+.navbar{
+    /* width: 100%;
+    height:60px;
+    max-width: 1200px; */
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 0 !important;
+}
+.navbar-nav{
+    padding-left: 110px !important;
+}
+.navbar div{
+    height: 100%;
+}
+.navbar div .col-md-4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-link{
+    color: #fff !important;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: #DD1D50 !important;
+}
+.navbar .navbar-brand{
+    color: #fff !important;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px; 
+    padding: 20px 0 !important;
+    transition: all 0.3s ease;
+}
+.logo{
+    width: 151px !important;
+    height: 100px   !important;
+    flex-shrink: 0;
+    background: #DD1D50 !important;
+}
+/* hero  */
+.hero-img {
+    position: relative;
+    top: 100px;
+}
+.hero-img img{
+    width: 638px;
+    height: 357px;
+    flex-shrink: 0;
+}
+.hero-div2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-text{
+    padding-top: 120px;
+    width: 936px;
+    height: 401px;
+    background: #E71C52;
+}
+.hero-text p{
+    padding-top: 50px;
+}
+.hero-left1{
+    position: absolute;
+    width: 250px !important;
+    height: 276px !important;
+    flex-shrink: 0;
+    top: 100px;
+    left: 10px;
+}
+.hero-left2{
+    position: absolute;
+    width: 300px !important;
+    height: 276px !important;
+    flex-shrink: 0;
+    top: 700px;
+    left: 10px;
+}
+.hero-right1{
+    position: absolute;
+    width: 250px !important;
+    height: 276px !important;
+    flex-shrink: 0;
+    top: 100px;
+    right: 10px;
+}
+.hero-right2{
+    position: absolute;
+    width: 250px !important;
+    height: 270px !important;
+    flex-shrink: 0;
+    top: 700px;
+    right: -120px;
+}
+/* about section */
+.about-div{
+    background-image: url("../images/about-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 900px;
+    height: 613px;
+    flex-shrink: 0;
+    padding-top: 150px;
+}
+.about-left1{
+    position: absolute;
+    width: 381px !important;
+    height: 538px !important;
+    flex-shrink: 0;
+    top: 1150px;
+    left: 10px;
+}
+.about-right1{
+    position: absolute;
+    width: 250px !important;
+    height: 270px !important;
+    flex-shrink: 0;
+    top: 1500px;
+    right: 70px;
+}
+.about-leave{
+    position: absolute;
+    width: 200px !important;
+    height: 230px !important;
+    flex-shrink: 0;
+    top: 2065px;
+    left: -10px;
+}
+/* menu */
+.menu-card{
+
+    justify-content: center;
+   
+}
+.menu-img-left{
+    border-top: 5px solid #DD1D50;
+    width: 463px !important;
+    height: 395px;
+    flex-shrink: 0;
+}
+.menu-img-right{
+    border-top: 5px solid #DD1D50;
+    width: 463px !important;
+    height: 395px;
+    flex-shrink: 0;
+}
+/* testimonial */
+.testimonial-section div{
+    justify-content: right !important;
+   margin: 0 auto;
+   position: relative;
+}
+.testimonial{
+    width: 465px;
+    height: 293px;
+}
+.test-img{
+    position: absolute;
+    width: 200px !important;
+    height: 180px !important;
+    flex-shrink: 0;
+    top:70px;
+    left: -40px;
+}
+.tree-bg{
+    position: absolute;
+    width: 200px !important;
+    height: 230px !important;
+    flex-shrink: 0;
+    top: 300px;
+    left: 38%
+}
+.salt-img{
+    position: absolute;
+    width: 200px !important;
+    height: 230px !important;
+    flex-shrink: 0;
+    top: 450px;
+    right: -10px;
+}
+.test-icon{
+    position: absolute;
+    z-index: 1;
+    flex-shrink: 0;
+    top: -30px;
+    left: 100px;
+}
+/* Responsive */
+
+@media(max-width:992px){
+    .navbar{
+        position: absolute;
+        z-index: 1;
+        background-color: #20232A !important;
+    }
+    .navbar-toggler {
+        margin-top: 20px;
+        border: none;
+        background: #DD1D50!important;
+        border:#20232A
+    }
+    .navbar-toggler:focus{
+        outline: none;
+    }
+    /* hero */
+    .hero-img img{
+        width: 538px;
+        height: 300px;
+    }
+    .hero-text{
+        width: 836px;
+        height: 351px;
+    }
+    .hero-text p{
+        padding-top: 40px;
+    }
+    .hero-left1{
+        width: 200px !important;
+        height: 276px !important;
+        top: 100px;
+    }
+    .hero-left2{
+        width: 300px !important;
+        height: 276px !important;
+        left: -100px;
+    }
+    .hero-right1{
+        width: 200px !important;
+        height: 276px !important;
+    }
+    /* about */
+    .about-left1{
+        width: 301px !important;
+        height: 438px !important;
+        top: 1160px;
+        left: -100px;
+    }
+    .about-right1{
+        position: absolute;
+        width: 250px !important;
+        height: 270px !important;
+        flex-shrink: 0;
+        top: 1300px;
+        right: 70px;
+    }
+    .about-leave{
+        position: absolute;
+        width: 200px !important;
+        height: 230px !important;
+        flex-shrink: 0;
+        top: 2000px;
+        left: -100px;
+    }
+    
+}
+
+@media(max-width: 576px){
+ .phone{
+        display: none;
+ }
+ .logo{
+    margin-left: 150px;
+ }
+ .hero-img img{
+    width: 338px;
+    height: 200px;
+}
+.hero-text{
+    width: 736px;
+    height: 301px;
+}
+.hero-text p{
+    padding-top: 20px;
+}
+.hero-left1{
+    width: 200px !important;
+    height: 276px !important;
+    top: 100px;
+    left: -100px;
+}
+.hero-left2{
+    width: 200px !important;
+    height: 176px !important;
+    left: -100px;
+    top: 540px;
+}
+.hero-right1{
+    width: 200px !important;
+    height: 276px !important;
+    right: -80px;
+}
+.hero-right2{
+    width: 200px !important;
+    height: 276px !important;
+    top: 540px;
+    
+}
+/* about */
+.about-left1{
+    width: 201px !important;
+    height: 300px !important;
+    top: 1000px;
+    left: -100px;
+}
+.about-right1{
+
+    width: 150px !important;
+    height: 170px !important;
+    top: 1100px;
+    right: -30px;
+}
+.about-leave{
+    position: absolute;
+    width: 200px !important;
+    height: 230px !important;
+    flex-shrink: 0;
+    top: 2000px;
+    left: -100px;
+}
+}
