@@ -149,7 +149,6 @@ body{
 }
 /* menu */
 .menu-card{
-
     justify-content: center;
    
 }
@@ -271,6 +270,16 @@ body{
         flex-shrink: 0;
         top: 2000px;
         left: -100px;
+    }
+    .testimonial{
+        padding-top: 40px;
+    }
+    .test-icon{
+        position: absolute;
+        z-index: 1;
+        flex-shrink: 0;
+        top: 30px;
+        left: 100px;
     }
     
 }
